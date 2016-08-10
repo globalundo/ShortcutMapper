@@ -1,7 +1,7 @@
 {
     "name": "tmux",
     "version": "2.0",
-    "default_context": "Global Context",
+    "default_context": "Prefix",
     "os": ["windows", "mac", "linux" ],
     "contexts": {
         "Global Context": {

@@ -1,0 +1,23 @@
+{
+    "name": "urxvt",
+    "version": "9.22",
+    "default_context": "Global Context",
+    "os": ["windows", "mac", "linux" ],
+    "contexts": {
+        "Scrollbuffer (copy) mode": {
+            "Begin Selection": [ "v", "v", "v"],
+            "Copy Selection": [ "y or Enter", "y or Enter", "y or Enter"],
+            "Select Line": [ "V", "V", "V"],
+            "Exit Copy Mode": [ "Esc", "Esc", "Esc"]
+        },
+
+        "Global Context": {
+            "Copy Selection": [ "Ctrl+shift+c", "Ctrl + shift+ c", "Ctrl + shift+ c"],
+            "Paste Buffer": [ "Ctrl+shift+p", "Ctrl + shift+ p", "Ctrl + shift+ p"],
+            "Enter Copy Mode": [ "Alt+Esc", "Alt+Esc", "Alt+Esc"],
+            "Increase Font Size": [ "Ctrl+equal", "Ctrl+equal", "Ctrl+equal"],
+            "Decrease Font Size": [ "Ctrl+minus", "Ctrl+minus", "Ctrl+minus"],
+            "Reset Font Size": [ "Ctrl+0", "Ctrl+0", "Ctrl+0"]
+        }
+    }
+}

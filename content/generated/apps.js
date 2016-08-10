@@ -12,4 +12,13 @@ var sitedata_apps = [
             },
         }
     },
+    {
+        name: "urxvt",
+        data: {
+            "9.22": {
+                "mac": "urxvt_9.22_mac.json",
+                "windows": "urxvt_9.22_windows.json",
+            },
+        }
+    },
 ];

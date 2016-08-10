@@ -3,7 +3,7 @@
     "version" : "2.0",
     "os" : "mac",
     "mods_used" : ["SHIFT"],
-    "default_context" : "Global Context",
+    "default_context" : "Prefix",
     "contexts" : {
         "Global Context" : {
             "CAPSLOCK" : [

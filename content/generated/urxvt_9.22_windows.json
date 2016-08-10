@@ -1,0 +1,46 @@
+{
+    "name" : "urxvt",
+    "version" : "9.22",
+    "os" : "windows",
+    "mods_used" : ["ALT", "CONTROL", "SHIFT"],
+    "default_context" : "Global Context",
+    "contexts" : {
+        "Global Context" : {
+            "C" : [
+                {"name":"Copy Selection", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "EQUAL" : [
+                {"name":"Increase Font Size", "mods":["CONTROL"]}
+            ],
+            "ESCAPE" : [
+                {"name":"Enter Copy Mode", "mods":["ALT"]}
+            ],
+            "MINUS" : [
+                {"name":"Decrease Font Size", "mods":["CONTROL"]}
+            ],
+            "NUMPAD_ZERO" : [
+                {"name":"Reset Font Size", "mods":["CONTROL"]}
+            ],
+            "P" : [
+                {"name":"Paste Buffer", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "ZERO" : [
+                {"name":"Reset Font Size", "mods":["CONTROL"]}
+            ]
+        },
+        "Scrollbuffer (copy) mode" : {
+            "ENTER" : [
+                {"name":"Copy Selection", "mods":[]}
+            ],
+            "ESCAPE" : [
+                {"name":"Exit Copy Mode", "mods":[]}
+            ],
+            "V" : [
+                {"name":"Select Line", "mods":[]}
+            ],
+            "Y" : [
+                {"name":"Copy Selection", "mods":[]}
+            ]
+        }
+    }
+}
