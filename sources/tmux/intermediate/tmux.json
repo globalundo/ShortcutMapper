@@ -1,0 +1,49 @@
+{
+    "name": "tmux",
+    "version": "2.0",
+    "default_context": "Global Context",
+    "os": ["windows", "mac", "linux" ],
+    "contexts": {
+        "Global Context": {
+            "Prefix": ["Caps Lock or F10", "Caps Lock or F10", "Caps Lock or F10"]
+        },
+        "Scrollbuffer (copy) mode": {
+            "Begin Selection": [ "v", "v", "v"],
+            "Copy Selection": [ "y", "y", "y"],
+            "Select Line": [ "V", "V", "V"],
+            "Exit Copy Mode": [ "Esc or q", "Esc or q", "Esc or q"]
+        },
+        "Prefix": {
+            "Switch to last window": [ "a", "a", "a"],
+            "Command Prompt": [ ":", ":", ":"],
+            "Paste Buffer": [ "p", "p", "p"],
+            "Enter Copy Mode": [ "Esc", "Esc", "Esc"],
+            "Split window horizontally": [ "-", "-", "-"],
+
+            "Select Panel UP": [ "K or UP", "K or UP", "K or UP"],
+            "Select Panel DOWN": [ "J or DOWN", "J or DOWN", "J or DOWN"],
+            "Select Panel LEFT": [ "H or LEFT", "H or LEFT", "H or LEFT"],
+            "Select Panel RIGHT": [ "L or RIGHT", "L or RIGHT", "L or RIGHT"],
+
+            "Resize Panel UP": [ "Shift + K", "Shift + K", "Shift + K"],
+            "Resize Panel DOWN": [ "Shift + J", "Shift + J", "Shift + J"],
+            "Resize Panel LEFT": [ "Shift + H", "Shift + H", "Shift + H"],
+            "Resize Panel RIGHT": [ "Shift + L", "Shift + L", "Shift + L"],
+
+            "Select Panel #1": [ "1", "1", "1"],
+            "Select Panel #2": [ "2", "2", "2"],
+            "Select Panel #3": [ "3", "3", "3"],
+            "Select Panel #4": [ "4", "4", "4"],
+            "Select Panel #5": [ "5", "5", "5"],
+            "Select Panel #6": [ "6", "6", "6"],
+            "Select Panel #7": [ "7", "7", "7"],
+            "Select Panel #8": [ "8", "8", "8"],
+            "Select Panel #9": [ "9", "9", "9"],
+
+            "Create new panel": ["c", "c", "c"],
+            "Detach from tmux": ["d", "d", "d"],
+
+            "Split window vertically": [ "|", "|", "|"]
+        }
+    }
+}

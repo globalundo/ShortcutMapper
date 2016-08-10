@@ -1,0 +1,142 @@
+{
+    "name" : "tmux",
+    "version" : "2.0",
+    "os" : "windows",
+    "mods_used" : ["SHIFT"],
+    "default_context" : "Global Context",
+    "contexts" : {
+        "Global Context" : {
+            "CAPSLOCK" : [
+                {"name":"Prefix", "mods":[]}
+            ],
+            "F10" : [
+                {"name":"Prefix", "mods":[]}
+            ]
+        },
+        "Prefix" : {
+            "A" : [
+                {"name":"Switch to last window", "mods":[]}
+            ],
+            "C" : [
+                {"name":"Create new panel", "mods":[]}
+            ],
+            "COLON" : [
+                {"name":"Command Prompt", "mods":[]}
+            ],
+            "D" : [
+                {"name":"Detach from tmux", "mods":[]}
+            ],
+            "DOWN_ARROW" : [
+                {"name":"Select Panel DOWN", "mods":[]}
+            ],
+            "EIGHT" : [
+                {"name":"Select Panel #8", "mods":[]}
+            ],
+            "ESCAPE" : [
+                {"name":"Enter Copy Mode", "mods":[]}
+            ],
+            "FIVE" : [
+                {"name":"Select Panel #5", "mods":[]}
+            ],
+            "FOUR" : [
+                {"name":"Select Panel #4", "mods":[]}
+            ],
+            "H" : [
+                {"name":"Resize Panel LEFT", "mods":["SHIFT"]},
+                {"name":"Select Panel LEFT", "mods":[]}
+            ],
+            "J" : [
+                {"name":"Resize Panel DOWN", "mods":["SHIFT"]},
+                {"name":"Select Panel DOWN", "mods":[]}
+            ],
+            "K" : [
+                {"name":"Resize Panel UP", "mods":["SHIFT"]},
+                {"name":"Select Panel UP", "mods":[]}
+            ],
+            "L" : [
+                {"name":"Resize Panel RIGHT", "mods":["SHIFT"]},
+                {"name":"Select Panel RIGHT", "mods":[]}
+            ],
+            "LEFT_ARROW" : [
+                {"name":"Select Panel LEFT", "mods":[]}
+            ],
+            "MINUS" : [
+                {"name":"Split window horizontally", "mods":[]}
+            ],
+            "NINE" : [
+                {"name":"Select Panel #9", "mods":[]}
+            ],
+            "NUMPAD_EIGHT" : [
+                {"name":"Select Panel #8", "mods":[]}
+            ],
+            "NUMPAD_FIVE" : [
+                {"name":"Select Panel #5", "mods":[]}
+            ],
+            "NUMPAD_FOUR" : [
+                {"name":"Select Panel #4", "mods":[]}
+            ],
+            "NUMPAD_MINUS" : [
+                {"name":"Split window horizontally", "mods":[]}
+            ],
+            "NUMPAD_NINE" : [
+                {"name":"Select Panel #9", "mods":[]}
+            ],
+            "NUMPAD_ONE" : [
+                {"name":"Select Panel #1", "mods":[]}
+            ],
+            "NUMPAD_SEVEN" : [
+                {"name":"Select Panel #7", "mods":[]}
+            ],
+            "NUMPAD_SIX" : [
+                {"name":"Select Panel #6", "mods":[]}
+            ],
+            "NUMPAD_THREE" : [
+                {"name":"Select Panel #3", "mods":[]}
+            ],
+            "NUMPAD_TWO" : [
+                {"name":"Select Panel #2", "mods":[]}
+            ],
+            "ONE" : [
+                {"name":"Select Panel #1", "mods":[]}
+            ],
+            "P" : [
+                {"name":"Paste Buffer", "mods":[]}
+            ],
+            "RIGHT_ARROW" : [
+                {"name":"Select Panel RIGHT", "mods":[]}
+            ],
+            "SEVEN" : [
+                {"name":"Select Panel #7", "mods":[]}
+            ],
+            "SIX" : [
+                {"name":"Select Panel #6", "mods":[]}
+            ],
+            "THREE" : [
+                {"name":"Select Panel #3", "mods":[]}
+            ],
+            "TWO" : [
+                {"name":"Select Panel #2", "mods":[]}
+            ],
+            "UP_ARROW" : [
+                {"name":"Select Panel UP", "mods":[]}
+            ],
+            "VERTICAL_BAR" : [
+                {"name":"Split window vertically", "mods":[]}
+            ]
+        },
+        "Scrollbuffer (copy) mode" : {
+            "ESCAPE" : [
+                {"name":"Exit Copy Mode", "mods":[]}
+            ],
+            "Q" : [
+                {"name":"Exit Copy Mode", "mods":[]}
+            ],
+            "V" : [
+                {"name":"Select Line", "mods":[]}
+            ],
+            "Y" : [
+                {"name":"Copy Selection", "mods":[]}
+            ]
+        }
+    }
+}
